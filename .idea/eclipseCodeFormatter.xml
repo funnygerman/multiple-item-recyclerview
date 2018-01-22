@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1478535326264" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/android.importorder" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="importOrdering" value="ECLIPSE_44" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/android_formatter_120.xml" />
+        <option name="selectedJavaProfile" value="Android" />
+      </Settings>
+    </option>
+  </component>
+</project>
