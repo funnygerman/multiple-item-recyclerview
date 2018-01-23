@@ -10,11 +10,7 @@ import com.funnygerman.multipleitemrecyclerview.viewmodel.BaseViewModel;
 import java.util.List;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * {@link RecyclerViewAdapter} to display {@link BaseViewModel} items
  */
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<AbstractViewHolder<? extends BaseViewModel>> {

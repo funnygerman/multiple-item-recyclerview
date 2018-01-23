@@ -4,11 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * Abstract ViewHolder to extend all other ViewHolders from
  */
 
 public abstract class AbstractViewHolder<BaseViewModel> extends RecyclerView.ViewHolder {

@@ -8,13 +8,8 @@ import com.funnygerman.multipleitemrecyclerview.R;
 import com.funnygerman.multipleitemrecyclerview.viewmodel.BaseViewModel;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * ViewHolder factory to create proper ViewHolder for every {@link BaseViewModel}'s type
  */
-
 public class ViewHolderFactory {
 
     public static AbstractViewHolder<? extends BaseViewModel> create(ViewGroup parent, int itemViewTypeAsInt) {

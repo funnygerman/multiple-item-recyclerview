@@ -7,13 +7,8 @@ import com.funnygerman.multipleitemrecyclerview.R;
 import com.funnygerman.multipleitemrecyclerview.viewmodel.ViewModelTypeC;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * ViewHolder for ViewModels of Type C
  */
-
 public class ViewHolderTypeC extends AbstractViewHolder<ViewModelTypeC> {
 
     private final View coloredView;

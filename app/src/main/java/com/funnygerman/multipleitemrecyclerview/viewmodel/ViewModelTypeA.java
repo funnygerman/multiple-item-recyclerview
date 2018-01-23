@@ -1,13 +1,8 @@
 package com.funnygerman.multipleitemrecyclerview.viewmodel;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * ViewModel of Type A
  */
-
 public class ViewModelTypeA implements BaseViewModel {
 
     private final String item;

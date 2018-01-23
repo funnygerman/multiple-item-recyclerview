@@ -7,13 +7,8 @@ import com.funnygerman.multipleitemrecyclerview.R;
 import com.funnygerman.multipleitemrecyclerview.viewmodel.ViewModelTypeB;
 
 /**
- * Please add a proper description here.
- *
- * @author funnygerman
- * @version 1.0
- * @since 1.0
+ * ViewHolder for ViewModels of Type B
  */
-
 public class ViewHolderTypeB extends AbstractViewHolder<ViewModelTypeB> {
 
     private final TextView tv_element_1;

@@ -1,6 +1,6 @@
 package com.funnygerman.multipleitemrecyclerview;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -14,7 +14,7 @@ import com.funnygerman.multipleitemrecyclerview.viewmodel.ViewModelTypeC;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private final List<BaseViewModel> items = new ArrayList<>();
 
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         items.add(new ViewModelTypeA("item4", "It's item 4"));
         items.add(new ViewModelTypeC("green"));
         items.add(new ViewModelTypeB("element1", "element2", "element3"));
+        items.add(new ViewModelTypeB("element4", "element5", "element6"));
         items.add(new ViewModelTypeC("red"));
     }
 }
