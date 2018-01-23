@@ -19,7 +19,7 @@ import java.util.List;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<AbstractViewHolder<? extends BaseViewModel>> {
 
-    final List<BaseViewModel> items;
+    private final List<BaseViewModel> items;
 
     public RecyclerViewAdapter(List<BaseViewModel> items) {
         this.items = items;
@@ -39,5 +39,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<AbstractViewHolder
     @Override
     public int getItemCount() {
         return items.size();
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return items.get(position).getType().ordinal();
     }
 }

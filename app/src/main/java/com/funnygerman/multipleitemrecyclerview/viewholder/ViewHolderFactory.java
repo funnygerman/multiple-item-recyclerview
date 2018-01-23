@@ -27,10 +27,10 @@ public class ViewHolderFactory {
                 return new ViewHolderTypeA(itemView);
             case TYPE_B:
                 itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_type_b, parent, false);
-                return new ViewHolderTypeA(itemView);
+                return new ViewHolderTypeB(itemView);
             case TYPE_C:
                 itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_type_c, parent, false);
-                return new ViewHolderTypeA(itemView);
+                return new ViewHolderTypeC(itemView);
             default:
                 throw new IllegalArgumentException("Unknown item view type: " + itemViewType.name());
         }
