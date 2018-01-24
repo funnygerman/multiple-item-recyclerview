@@ -4,6 +4,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.funnygerman.multipleitemrecyclerview.R;
+import com.funnygerman.multipleitemrecyclerview.adapter.RecyclerViewAdapter;
 import com.funnygerman.multipleitemrecyclerview.viewmodel.ViewModelTypeA;
 
 /**
@@ -14,7 +15,7 @@ public class ViewHolderTypeA extends AbstractViewHolder<ViewModelTypeA> {
     private final TextView itemTv;
     private final TextView itemDescriptionTv;
 
-    public ViewHolderTypeA(View itemView) {
+    public ViewHolderTypeA(View itemView, RecyclerViewAdapter.ClickListener clickListener) {
         super(itemView);
         itemTv = itemView.findViewById(R.id.tv_item);
         itemDescriptionTv = itemView.findViewById(R.id.tv_item_description);
